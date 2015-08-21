@@ -27,6 +27,13 @@
       <Navigate />
     </Command>
 
+    <Command Name="CheckTemperature">
+      <Example>Check temperature</Example>
+      <ListenFor>check [current] temperature</ListenFor>
+      <Feedback>Checking temperature</Feedback>
+      <VoiceCommandService Target="VoiceCommandService" />
+    </Command>
+
     <PhraseList Label="colors">
       <Item>yellow</Item>
       <Item>green</Item>
